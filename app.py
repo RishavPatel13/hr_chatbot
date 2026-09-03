@@ -59,7 +59,7 @@ if prompt:
             try:
 
                 response = requests.post(
-                    "https://n8n.gcbservicesit.com/webhook/hr-bot",
+                    "https://n8n.gcbservicesit.com/webhook/57383998-a5c2-4c70-89fd-5bde1c60cfcd",
                     json={
                         "sessionId": st.session_state.session_id,
                         "chatInput": prompt
